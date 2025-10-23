@@ -98,7 +98,7 @@ def create_wfcommon(df_tasks, df_wf, run_id, output_file):
         )
     wf_json = {
         "name": name,
-        "description": "TOBEFILLED",
+        "description": "PLACEHOLDER",
         "createdAt": wf_created_at,
         "schemaVersion": '1.5',
         "workflow": {
@@ -113,10 +113,10 @@ def create_wfcommon(df_tasks, df_wf, run_id, output_file):
             }
         },
         "author": {
-            "name": "TOBEFILLED",
-            "email": "TOBEFILLED",
-            "institution": "TOBEFILLED",
-            "country": "TOBEFILLED"
+            "name": "PLACEHOLDER",
+            "email": "PLACEHOLDER",
+            "institution": "PLACEHOLDER",
+            "country": "PLACEHOLDER"
         },
         "runtimeSystem": {
             "name": "Parsl",
